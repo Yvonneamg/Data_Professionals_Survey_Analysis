@@ -1,1 +1,17 @@
 ## Overview
+
+We carried out a survey involving about 600 data analysts and we are interested with several factors among them their salaries, industries they work in and their favorite programming language.
+
+We intend to carry out our analysis of the data and report key findings utilizing **Power BI** and **Power Query**.
+
+
+---
+
+## Analysis Approach
+
+## Data loading and Cleaning
+
+We first load the raw excel data to pwer BI and proceed to carry out transformations using power query. We focus on ensuring that;
+
+- Removing any unnecessary columns; 5 are removed
+- Split columns to standardize the data and obtain realistic data to be used for visualization
