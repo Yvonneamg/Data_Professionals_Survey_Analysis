@@ -1,9 +1,14 @@
 ## Overview
 
-We carried out a survey involving about 600 data analysts and we are interested with several factors among them their salaries, industries they work in and their favorite programming language.
+We carried out a survey involving data analysts and we are interested with several factors among them their salaries, industries they work in and their favorite programming language.
 
 We intend to carry out our analysis of the data and report key findings utilizing **Power BI** and **Power Query**.
 
+
+---
+
+## The Dataset
+The dataset is an excel file containing responses from 630 individuals who provide information amounting to 28 columns in total. 5 of the columns are empty implying no responses were obtained on those sections.
 
 ---
 
@@ -13,5 +18,11 @@ We intend to carry out our analysis of the data and report key findings utilizin
 
 We first load the raw excel data to pwer BI and proceed to carry out transformations using power query. We focus on ensuring that;
 
-- Removing any unnecessary columns; 5 are removed
-- Split columns to standardize the data and obtain realistic data to be used for visualization
+- Removing any unnecessary columns; 5 are removed.
+- Split columns to standardize the data and obtain realistic data to be used for visualization.
+- Ensure correct data types for each column ie dates should be dates, time should be time, text should be text and numbers numbers.
+- Ensure that all relevant data is standardized. For intance where the response is other and the respondent has specified, the response is either standardized to other or if it is relevant the specific response is extracted.
+- Additional custom column is created to report average salaries of the respondents.
+- The transformed data is then loaded to Power BI for visualization.
+
+## 
