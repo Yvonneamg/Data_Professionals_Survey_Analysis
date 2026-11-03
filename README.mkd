@@ -8,7 +8,7 @@ We intend to carry out our analysis of the data and report key findings utilizin
 ---
 
 ## The Dataset
-The [dataset)] (C:\Users\HP\OneDrive\Desktop\Projects\Data_Professionals_Survey_Analysis\data\raw data.xlsx) is an excel file containing responses from 630 individuals who provide information amounting to 28 columns in total. 5 of the columns are empty implying no responses were obtained on those sections.
+The [dataset](C:\Users\HP\OneDrive\Desktop\Projects\Data_Professionals_Survey_Analysis\data\raw data.xlsx) is an excel file containing responses from 630 individuals who provide information amounting to 28 columns in total. 5 of the columns are empty implying no responses were obtained on those sections.
 
 ---
 
