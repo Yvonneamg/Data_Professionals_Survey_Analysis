@@ -8,12 +8,12 @@ We intend to carry out our analysis of the data and report key findings utilizin
 ---
 
 ## The Dataset
-The dataset is an excel file containing responses from 630 individuals who provide information amounting to 28 columns in total. 5 of the columns are empty implying no responses were obtained on those sections.
+The (dataset) [C:\Users\HP\OneDrive\Desktop\Projects\Data_Professionals_Survey_Analysis\data\raw data.xlsx] is an excel file containing responses from 630 individuals who provide information amounting to 28 columns in total. 5 of the columns are empty implying no responses were obtained on those sections.
 
 ---
 
 ## Business problem
-We aim to answer the following qquestions:
+We aim to answer the following questions:
 
 1. How many people took the survey?
 2. What was the average age of the survey takers?
