@@ -12,6 +12,29 @@ The dataset is an excel file containing responses from 630 individuals who provi
 
 ---
 
+## Business problem
+We aim to answer the following qquestions:
+
+1. How many people took the survey?
+2. What was the average age of the survey takers?
+3. Which data profession reported the highest average salary?
+4. Which programming language is the favorite of many data professionals and which one is favorite among data analysts?
+5. How happy are people in general with their work life balance?
+6. How happy are people in general with their salaries?
+7. Which gender has the highest salaries?
+---
+
+## Key findings
+- **630 individuals took the survey**
+- **The average age of survey takers is approximately 30 years**
+- **Data scientists earn the highest average salaries at approximately 93.78**
+- **Most data professionals prefere python with the majority of its users being data analysts at 225**
+- **On a scale of 1 to 10 most people report 5.74 happiness levels on average**
+- **On a scale of 1 to 10 most people report 4.27 salary satisfaction on average**
+- **Females have the highest average salaries at 50.9% compared to males at 49.2%**
+---
+
+
 ## Analysis Approach
 
 ## Data loading and Cleaning
@@ -25,4 +48,45 @@ We first load the raw excel data to pwer BI and proceed to carry out transformat
 - Additional custom column is created to report average salaries of the respondents.
 - The transformed data is then loaded to Power BI for visualization.
 
-## 
+## Creating Visuals
+
+Once the transformed data is uploaded to powerbi. We proceed to create visuals that can easily communicate to stakeholders.
+
+- We use cards to report single digit findings such as average age of survey takers and total number of survey takers.
+- Bar and column charts to look at the average salary by profession and people's favorite programming language.
+- A tree map to specify the countries from which the survey takers come from and so we are able to look at the averages based on the specific countries.
+- Gauges for work life balance and salary satisfaction visualizations.
+- Donut charts for salary distribution by gender
+
+---
+
+## Tools & Technologies
+
+- **Business Intelligence: Power BI Desktop**
+- **Data Transformation: Power Query (M Language)**
+
+--- 
+
+## Project Structure
+
+```text
+Data_Professionals_Survey_Analysis/
+|
+├── data/
+│   └──raw data.xlsx
+│
+├── visualizations/
+│   └──Data_Professional_Survey_Analysis_visual.png
+|     
+└── README.md
+
+```
+--- 
+
+## How to Run
+
+1. Clone or download the repository.
+2. Open `Data_Profession_Survey_Analysis.pbix` in PowerBI.
+3. Refresh the queries and check the updates made
+
+
